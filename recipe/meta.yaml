@@ -10,7 +10,7 @@ source:
 
 build:
   skip: True  # [py<37]
-  skip: True  # [not linux64]
+  skip: True  # [not linux64 and not win64]
   skip: True  # [cuda_compiler_version == "None"]
   number: 1
 
