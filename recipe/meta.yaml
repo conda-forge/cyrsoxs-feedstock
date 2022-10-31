@@ -1,18 +1,19 @@
-{% set version = "1.1.5.0" %}
-
+{% set name = "cyrsoxs" %}
+{% set version = "1.1.5.1" %}
+{% set sha = "38d9e284fcb9f1359bd05eb1f5b88ba14dbf9b06335740c04feca81bd6c503fb" %}
 package:
-  name: cyrsoxs
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
   url: https://github.com/usnistgov/cyrsoxs/archive/refs/tags/V{{ version }}.tar.gz
-  sha256: 7ce6e64d5e794751476e6e1b6dbb1cd940b2dd26796b8d416fd82b6c20302ff9
+  sha256: {{ sha }}
 
 build:
   skip: True  # [py<37]
   skip: True  # [not linux64]
   skip: True  # [cuda_compiler_version == "None"]
-  number: 1
+  number: 0
 
 requirements:
   build:
@@ -23,15 +24,15 @@ requirements:
     - libgomp
   host:
     - python
-    - pip
     - pybind11
     - pybind11-abi
     - hdf5
+    - libgomp
     - libconfig
   run:
-    - python
+    - libgomp
     - libconfig
-
+    - python
 test:
   imports:
     - CyRSoXS
