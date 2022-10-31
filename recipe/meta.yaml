@@ -20,7 +20,7 @@ requirements:
     - {{ compiler('cuda') }}
     - cmake
     - make
-    - libgomp
+    - libgomp # [linux]
   host:
     - python
     - pip
