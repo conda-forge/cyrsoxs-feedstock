@@ -29,7 +29,7 @@ cmake ${SRC_DIR} \
   ${CMAKE_ARGS} \
   -DCMAKE_BUILD_TYPE=Release \
   -DDOUBLE_PRECISION=Yes \
-  -DOUTPUT_BASE_NAME=CyRSoXS-dbl
+  -DOUTPUT_BASE_NAME=CyRSoXS_dbl
 make install
 cd ../
 rm -r build 
@@ -46,7 +46,7 @@ cmake ${SRC_DIR} \
   ${CMAKE_PLATFORM_FLAGS[@]} \
   -DCMAKE_CUDA_RUNTIME_LIBRARY=Shared \
   -DDOUBLE_PRECISION=Yes \
-  -DOUTPUT_BASE_NAME=CyRSoXS-dbl
+  -DOUTPUT_BASE_NAME=CyRSoXS_dbl
 make install
 cd ../
 rm -r build-pybind
@@ -57,7 +57,7 @@ cmake ${SRC_DIR} \
   ${CMAKE_ARGS} \
   -DCMAKE_BUILD_TYPE=Release \
   -DPROFILING=Yes \
-  -DOUTPUT_BASE_NAME=CyRSoXS-pro
+  -DOUTPUT_BASE_NAME=CyRSoXS_pro
 make install
 cd ../
 rm -r build
@@ -74,7 +74,7 @@ cmake ${SRC_DIR} \
   ${CMAKE_PLATFORM_FLAGS[@]} \
   -DCMAKE_CUDA_RUNTIME_LIBRARY=Shared \
   -DPROFILING=Yes \
-  -DOUTPUT_BASE_NAME=CyRSoXS-pro
+  -DOUTPUT_BASE_NAME=CyRSoXS_pro
 make install
 cd ../
 rm -r build-pybind
@@ -85,7 +85,7 @@ cmake ${SRC_DIR} \
   ${CMAKE_ARGS} \
   -DCMAKE_BUILD_TYPE=Release \
   -DUSE_64_BIT_INDICES=Yes \
-  -DOUTPUT_BASE_NAME=CyRSoXS-big
+  -DOUTPUT_BASE_NAME=CyRSoXS_big
 make install
 cd ../
 rm -r build
@@ -102,7 +102,7 @@ cmake ${SRC_DIR} \
   ${CMAKE_PLATFORM_FLAGS[@]} \
   -DCMAKE_CUDA_RUNTIME_LIBRARY=Shared \
   -DUSE_64_BIT_INDICES=Yes \
-  -DOUTPUT_BASE_NAME=CyRSoXS-big
+  -DOUTPUT_BASE_NAME=CyRSoXS_big
 make install
 cd ../
 rm -r build-pybind

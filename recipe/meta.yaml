@@ -1,6 +1,6 @@
 {% set name = "cyrsoxs" %}
-{% set version = "1.1.5.1" %}
-{% set sha = "38d9e284fcb9f1359bd05eb1f5b88ba14dbf9b06335740c04feca81bd6c503fb" %}
+{% set version = "1.1.5.2" %}
+{% set sha = "85b70f90808bf603a5e9c710f4f3b53d071716db1884faf61f3f585abce9e274" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -13,7 +13,7 @@ build:
   skip: True  # [py<37]
   skip: True  # [not linux64]
   skip: True  # [cuda_compiler_version == "None"]
-  number: 1
+  number: 0
 
 requirements:
   build:
