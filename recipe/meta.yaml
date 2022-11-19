@@ -27,10 +27,8 @@ requirements:
     - pybind11
     - pybind11-abi
     - hdf5
-    - libgomp  # [linux]
     - libconfig
   run:
-    - libgomp  # [linux]
     - libconfig
     - python
 test:
