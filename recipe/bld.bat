@@ -7,7 +7,8 @@ cmake -G "NMake Makefiles" ^
 	-DCMAKE_INSTALL_PREFIX:PATH="%LIBRARY_PREFIX%" ^
 	-DCMAKE_PREFIX_PATH:PATH="%LIBRARY_PREFIX%" ^
   	-DCMAKE_BUILD_TYPE:STRING="Release" ^
-  	${CMAKE_ARGS} ^
+	-DCMAKE_CUDA_HOST_COMPILER:PATH=${CMAKE_CXX_COMPILER} ^
+	${CMAKE_ARGS} ^
         ..
 
 if errorlevel 1 exit 1
@@ -31,6 +32,7 @@ cmake -G "NMake Makefiles" ^
  	-DPython_EXECUTABLE="%PYTHON%"  ^
   	${CMAKE_PLATFORM_FLAGS[@]} ^
   	-DCMAKE_CUDA_RUNTIME_LIBRARY=Shared ^
+	-DCMAKE_CUDA_HOST_COMPILER:PATH=${CMAKE_CXX_COMPILER} ^
 	.. 
 if errorlevel 1 exit 1
 
