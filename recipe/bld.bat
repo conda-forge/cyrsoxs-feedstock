@@ -1,6 +1,13 @@
 setlocal EnableDelayedExpansion
 echo on
-
+REM win-cuda workarounds copied from tensorflow-feedstock
+set "HOST_C_COMPILER=%CC%"
+set "HOST_CXX_COMPILER=%CXX%"
+REM WIN+CUDA workarounds (copied from faiss-feedstock)
+del %BUILD_PREFIX%\bin\nvcc.bat
+set "CudaToolkitDir=%CUDA_PATH%"
+set "CUDAToolkit_ROOT=%CUDA_PATH%"
+ 
 mkdir build
 cd build
 echo "In build, running Cmake"
