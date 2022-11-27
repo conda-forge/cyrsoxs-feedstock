@@ -11,9 +11,9 @@ source:
 
 build:
   skip: True  # [py<37]
-  skip: True  # [not linux64]
+  skip: True  # [not linux64 and not win64]
   skip: True  # [cuda_compiler_version == "None"]
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -21,16 +21,14 @@ requirements:
     - {{ compiler('cuda') }}
     - cmake
     - make
-    - libgomp
+    - libgomp  # [linux]
   host:
     - python
     - pybind11
     - pybind11-abi
     - hdf5
-    - libgomp
     - libconfig
   run:
-    - libgomp
     - libconfig
     - python
 test:
