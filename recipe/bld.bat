@@ -24,7 +24,7 @@ cmake -G "NMake Makefiles" ^
 	-DCMAKE_CUDA_HOST_COMPILER:PATH="%CXX%" ^
   	%CMAKE_PLATFORM_FLAGS[@]% ^
 	%CMAKE_ARGS% ^
-        ..
+        %SRC_DIR%
 
 if errorlevel 1 exit 1
 echo "running nmake"
@@ -49,7 +49,8 @@ cmake -G "NMake Makefiles" ^
   	%CMAKE_PLATFORM_FLAGS[@]% ^
   	-DCMAKE_CUDA_RUNTIME_LIBRARY:STRING="Shared" ^
 	-DCMAKE_CUDA_HOST_COMPILER:PATH="%CXX%" ^
-	.. 
+	%SRC_DIR%
+
 if errorlevel 1 exit 1
 
 nmake
