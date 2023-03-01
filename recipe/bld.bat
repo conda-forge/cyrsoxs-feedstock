@@ -10,7 +10,7 @@ set "CUDAToolkit_ROOT=%CUDA_PATH%"
 
 set "LIBCONFIG_DIR=C:\\vcpkg\\packages\\libconfig_x86-windows\\share\\libconfig"
 
-vcpkg install libconfig --head
+vcpkg install libconfig:x64-windows --head
 
 mkdir build
 cd build
