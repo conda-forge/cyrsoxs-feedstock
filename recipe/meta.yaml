@@ -8,6 +8,8 @@ package:
 source:
   url: https://github.com/usnistgov/cyrsoxs/archive/refs/tags/V{{ version }}.tar.gz
   sha256: {{ sha }}
+  patches:
+      - 0001-Add-windows-cutout-for-libconfig.patch
 
 build:
   skip: True  # [py<37]
