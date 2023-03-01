@@ -20,7 +20,7 @@ cmake -G "NMake Makefiles" ^
 	-DCMAKE_PREFIX_PATH:PATH="%LIBRARY_PREFIX%" ^
   	-DCMAKE_BUILD_TYPE:STRING="Release" ^
 	-DCMAKE_CUDA_HOST_COMPILER:PATH="%CXX%" ^
-	-DLIBCONFIG_DIR="C:\vcpkg\packages\libconfig_x86-windows\" ^
+	-DLIBCONFIG_DIR:PATH="C:\vcpkg\packages\libconfig_x86-windows\" ^
   	%CMAKE_PLATFORM_FLAGS[@]% ^
 	%CMAKE_ARGS% ^
         ..
