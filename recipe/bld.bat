@@ -10,17 +10,18 @@ set "CUDAToolkit_ROOT=%CUDA_PATH%"
 
 set "LIBCONFIG_DIR=C:\vcpkg\packages\libconfig_x86-windows\share\libconfig"
 
+vcpkg install libconfig --head
+
 mkdir build
 cd build
 echo "In build, running Cmake"
-vcpkg install libconfig --head
 
 cmake -G "NMake Makefiles" ^
 	-DCMAKE_INSTALL_PREFIX:PATH="%LIBRARY_PREFIX%" ^
+	-DLIBCONFIG_DIR:PATH="C:\vcpkg\packages\libconfig_x86-windows\" ^
 	-DCMAKE_PREFIX_PATH:PATH="%LIBRARY_PREFIX%" ^
   	-DCMAKE_BUILD_TYPE:STRING="Release" ^
 	-DCMAKE_CUDA_HOST_COMPILER:PATH="%CXX%" ^
-	-DLIBCONFIG_DIR:PATH="C:\vcpkg\packages\libconfig_x86-windows\" ^
   	%CMAKE_PLATFORM_FLAGS[@]% ^
 	%CMAKE_ARGS% ^
         ..
@@ -39,6 +40,7 @@ cd build-pybind
 cmake -G "NMake Makefiles" ^
 	-DCMAKE_INSTALL_PREFIX:PATH="%LIBRARY_PREFIX%" ^
 	-DCMAKE_PREFIX_PATH:PATH="%LIBRARY_PREFIX%" ^
+	-DLIBCONFIG_DIR:PATH="C:\vcpkg\packages\libconfig_x86-windows\" ^
   	%CMAKE_ARGS% ^
   	-DCMAKE_BUILD_TYPE:STRING="Release" ^
   	-DPYBIND=Yes ^
