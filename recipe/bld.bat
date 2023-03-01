@@ -11,7 +11,7 @@ set "CUDAToolkit_ROOT=%CUDA_PATH%"
 mkdir build
 cd build
 echo "In build, running Cmake"
-vcpkg install libconfig
+vcpkg install libconfig --head
 
 cmake -G "NMake Makefiles" ^
 	-DCMAKE_INSTALL_PREFIX:PATH="%LIBRARY_PREFIX%" ^
