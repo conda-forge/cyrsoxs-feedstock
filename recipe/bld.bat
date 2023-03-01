@@ -7,7 +7,9 @@ REM WIN+CUDA workarounds (copied from faiss-feedstock)
 del %BUILD_PREFIX%\bin\nvcc.bat
 set "CudaToolkitDir=%CUDA_PATH%"
 set "CUDAToolkit_ROOT=%CUDA_PATH%"
- 
+
+set "LIBCONFIG_DIR=C:/vcpkg/packages/libconfig_x86-windows/share/libconfig"
+
 mkdir build
 cd build
 echo "In build, running Cmake"
