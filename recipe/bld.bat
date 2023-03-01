@@ -8,7 +8,7 @@ del %BUILD_PREFIX%\bin\nvcc.bat
 set "CudaToolkitDir=%CUDA_PATH%"
 set "CUDAToolkit_ROOT=%CUDA_PATH%"
 
-set "LIBCONFIG_DIR=C:/vcpkg/packages/libconfig_x86-windows/share/libconfig"
+set "LIBCONFIG_DIR=C:\vcpkg\packages\libconfig_x86-windows\share\libconfig"
 
 mkdir build
 cd build
@@ -20,6 +20,7 @@ cmake -G "NMake Makefiles" ^
 	-DCMAKE_PREFIX_PATH:PATH="%LIBRARY_PREFIX%" ^
   	-DCMAKE_BUILD_TYPE:STRING="Release" ^
 	-DCMAKE_CUDA_HOST_COMPILER:PATH="%CXX%" ^
+	-DLIBCONFIG_DIR="C:\vcpkg\packages\libconfig_x86-windows\" ^
   	%CMAKE_PLATFORM_FLAGS[@]% ^
 	%CMAKE_ARGS% ^
         ..
