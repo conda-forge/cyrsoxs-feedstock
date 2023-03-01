@@ -20,7 +20,6 @@ index 2c3c0e5..2f5e67d 100644
 -        message(FATAL_ERROR "Libconfig++ could not be located.")
 -    endif ()
 +    if (WIN32)
-+	find_package(libconfig CONFIG REQUIRED)
 +	find_package(libconfig++ CONFIG REQUIRED)
 + 	set(CONFIG++_LIBRARY libconfig::libconfig++)
 +	set(CONFIG++_INCLUDE_DIR libconfig::libconfig.h++) 	
