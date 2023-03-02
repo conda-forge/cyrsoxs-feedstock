@@ -12,7 +12,7 @@ set "VERBOSE=1"
 set "LIBCONFIG_DIR=C:\\vcpkg\\packages\\libconfig_x64-windows\\share\\libconfig"
 
 cmake --version
-REM vcpkg install libconfig:x64-windows --head
+vcpkg install libconfig:x64-windows --head
 
 mkdir build
 cd build
