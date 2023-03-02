@@ -7,6 +7,7 @@ REM WIN+CUDA workarounds (copied from faiss-feedstock)
 del %BUILD_PREFIX%\bin\nvcc.bat
 set "CudaToolkitDir=%CUDA_PATH%"
 set "CUDAToolkit_ROOT=%CUDA_PATH%"
+set "VERBOSE=1"
 
 set "LIBCONFIG_DIR=C:\\vcpkg\\packages\\libconfig_x64-windows\\share\\libconfig"
 
@@ -22,6 +23,7 @@ cmake -G "NMake Makefiles" ^
 	-DCMAKE_PREFIX_PATH:PATH="%LIBRARY_PREFIX%" ^
 	-DCMAKE_BUILD_TYPE:STRING="Release" ^
 	-DCMAKE_CUDA_HOST_COMPILER:PATH="%CXX%" ^
+	-DCMAKE_VERBOSE:BOOL=True ^
 	%CMAKE_PLATFORM_FLAGS[@]% ^
 	%CMAKE_ARGS% ^
 	%SRC_DIR%
