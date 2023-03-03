@@ -23,11 +23,12 @@ cmake -G "NMake Makefiles" ^
 	-DLIBCONFIG_DIR:PATH="C:\\vcpkg\\packages\\libconfig_x64-windows\\" ^
 	-DCMAKE_PREFIX_PATH:PATH="%LIBRARY_PREFIX%" ^
 	-DCMAKE_BUILD_TYPE:STRING="Release" ^
-	-DCMAKE_CUDA_HOST_COMPILER:PATH="%CXX%" ^
 	-DCMAKE_VERBOSE:BOOL=True ^
 	%CMAKE_PLATFORM_FLAGS[@]% ^
 	%CMAKE_ARGS% ^
 	%SRC_DIR%
+REM removed 
+REM	-DCMAKE_CUDA_HOST_COMPILER:PATH="%CXX%" ^
 
 if errorlevel 1 exit 1
 echo "running nmake"
