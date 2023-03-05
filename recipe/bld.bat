@@ -18,7 +18,8 @@ mkdir build
 cd build
 echo "In build, running Cmake"
 
-cmake -G "NMake Makefiles" ^
+REM was -G "NMake Makefiles" 
+cmake -G "Ninja" ^
 	-DCMAKE_INSTALL_PREFIX:PATH="%LIBRARY_PREFIX%" ^
 	-DLIBCONFIG_DIR:PATH="C:\\vcpkg\\packages\\libconfig_x64-windows\\" ^
 	-DCMAKE_PREFIX_PATH:PATH="%LIBRARY_PREFIX%" ^
