@@ -21,6 +21,7 @@ requirements:
   build:
     - {{ compiler('cxx') }}
     - {{ compiler('cuda') }}
+    - ninja  # [win]
     - cmake
     - make
     - libgomp  # [linux]
