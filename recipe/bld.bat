@@ -32,10 +32,12 @@ REM	-DCMAKE_CUDA_HOST_COMPILER:PATH="%CXX%" ^
 
 if errorlevel 1 exit 1
 echo "running nmake"
-nmake
+cmake --build . 
+REM was nmake
 if errorlevel 1 exit 1
 echo "running nmake install"
-nmake install
+cmake --build . --target install 
+REM was nmake install
 if errorlevel 1 exit 1
 cd ../
 
