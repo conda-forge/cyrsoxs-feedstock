@@ -11,6 +11,18 @@ set "VERBOSE=1"
 
 set "LIBCONFIG_DIR=C:\\vcpkg\\packages\\libconfig_x64-windows\\share\\libconfig"
 
+REM following workarounds from tomopy-feedstock
+:: Set CUDACXX with call to 'where nvcc'
+for /f "tokens=* usebackq" %%f in (`where nvcc`) do (set "dummy=%%f" && call set "CUDACXX=%%dummy:\=\\%%")
+
+echo nvcc is %CUDACXX%
+echo CUDA path is %CUDA_PATH%
+echo CUDA is %USE_CUDA%
+echo MKL is %USE_MKL%
+echo OPENCV is %USE_OPENCV%
+echo CMAKE_ARGS is %CMAKE_ARGS%
+
+
 cmake --version
 vcpkg install libconfig:x64-windows --head
 
