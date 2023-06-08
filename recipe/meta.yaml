@@ -29,6 +29,7 @@ requirements:
     - hdf5
     - libgomp
     - libconfig
+    - libcufft-dev      # [(cuda_compiler_version or "").startswith("12")]
   run:
     - libgomp
     - libconfig
