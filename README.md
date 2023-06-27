@@ -1,11 +1,11 @@
-About cyrsoxs
-=============
+About cyrsoxs-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cyrsoxs-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/usnistgov/cyrsoxs
 
 Package license: NIST-PD
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cyrsoxs-feedstock/blob/main/LICENSE.txt)
 
 Summary: Cy-RSoXS Forward Simulator for Resonant Soft X-Ray Scattering
 
@@ -31,171 +31,171 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_cuda_compiler_version10.2cxx_compiler_version7python3.10.____cpython</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version10.2cxx_compiler_version7python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version10.2cxx_compiler_version7python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version10.2cxx_compiler_version7python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version10.2cxx_compiler_version7python3.11.____cpython</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version10.2cxx_compiler_version7python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version10.2cxx_compiler_version7python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version10.2cxx_compiler_version7python3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version10.2cxx_compiler_version7python3.8.____73_pypy</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version10.2cxx_compiler_version7python3.8.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version10.2cxx_compiler_version7python3.8.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version10.2cxx_compiler_version7python3.8.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version10.2cxx_compiler_version7python3.8.____cpython</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version10.2cxx_compiler_version7python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version10.2cxx_compiler_version7python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version10.2cxx_compiler_version7python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version10.2cxx_compiler_version7python3.9.____73_pypy</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version10.2cxx_compiler_version7python3.9.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version10.2cxx_compiler_version7python3.9.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version10.2cxx_compiler_version7python3.9.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version10.2cxx_compiler_version7python3.9.____cpython</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version10.2cxx_compiler_version7python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version10.2cxx_compiler_version7python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version10.2cxx_compiler_version7python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.0cxx_compiler_version9python3.10.____cpython</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version11.0cxx_compiler_version9python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version11.0cxx_compiler_version9python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.0cxx_compiler_version9python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.0cxx_compiler_version9python3.11.____cpython</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version11.0cxx_compiler_version9python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version11.0cxx_compiler_version9python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.0cxx_compiler_version9python3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.0cxx_compiler_version9python3.8.____73_pypy</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version11.0cxx_compiler_version9python3.8.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version11.0cxx_compiler_version9python3.8.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.0cxx_compiler_version9python3.8.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.0cxx_compiler_version9python3.8.____cpython</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version11.0cxx_compiler_version9python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version11.0cxx_compiler_version9python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.0cxx_compiler_version9python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.0cxx_compiler_version9python3.9.____73_pypy</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version11.0cxx_compiler_version9python3.9.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version11.0cxx_compiler_version9python3.9.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.0cxx_compiler_version9python3.9.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.0cxx_compiler_version9python3.9.____cpython</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version11.0cxx_compiler_version9python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version11.0cxx_compiler_version9python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.0cxx_compiler_version9python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.1cxx_compiler_version10python3.10.____cpython</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version11.1cxx_compiler_version10python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version11.1cxx_compiler_version10python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.1cxx_compiler_version10python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.1cxx_compiler_version10python3.11.____cpython</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version11.1cxx_compiler_version10python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version11.1cxx_compiler_version10python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.1cxx_compiler_version10python3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.1cxx_compiler_version10python3.8.____73_pypy</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version11.1cxx_compiler_version10python3.8.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version11.1cxx_compiler_version10python3.8.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.1cxx_compiler_version10python3.8.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.1cxx_compiler_version10python3.8.____cpython</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version11.1cxx_compiler_version10python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version11.1cxx_compiler_version10python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.1cxx_compiler_version10python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.1cxx_compiler_version10python3.9.____73_pypy</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version11.1cxx_compiler_version10python3.9.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version11.1cxx_compiler_version10python3.9.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.1cxx_compiler_version10python3.9.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.1cxx_compiler_version10python3.9.____cpython</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version11.1cxx_compiler_version10python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version11.1cxx_compiler_version10python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.1cxx_compiler_version10python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.2cxx_compiler_version10python3.10.____cpython</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version11.2cxx_compiler_version10python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.2cxx_compiler_version10python3.11.____cpython</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version11.2cxx_compiler_version10python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10python3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.2cxx_compiler_version10python3.8.____73_pypy</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10python3.8.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version11.2cxx_compiler_version10python3.8.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10python3.8.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.2cxx_compiler_version10python3.8.____cpython</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version11.2cxx_compiler_version10python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.2cxx_compiler_version10python3.9.____73_pypy</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10python3.9.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version11.2cxx_compiler_version10python3.9.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10python3.9.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.2cxx_compiler_version10python3.9.____cpython</td>
+              <td>linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compiler_version11.2cxx_compiler_version10python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cyrsoxs-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr>
