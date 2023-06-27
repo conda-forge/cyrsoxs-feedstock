@@ -2,6 +2,10 @@ migrator_ts: 1682985063
 __migrator:
   kind:
     version
+  # Vendor CUDA 12 migrator to use GCC 11.
+  # This is needed to workaround a pybind + GCC 12 + nvcc 12 bug
+  # xref: https://github.com/pybind/pybind11/issues/4606
+  use_local: true
   migration_number:
     1
   build_number:
@@ -50,7 +54,7 @@ __migrator:
     
     The transition to CUDA 12 SDK includes new packages for all CUDA libraries and
     build tools. Notably, the cudatoolkit package no longer exists, and packages
-    should depend directly on the specific CUDA libraries (libcublas, libcusolver,
+    should depend directly on the specific CUDA libraries (libblas, libcusolver,
     etc) as needed. For an in-depth overview of the changes and to report problems
     [see this issue]( https://github.com/conda-forge/conda-forge.github.io/issues/1963 ).
     Please feel free to raise any issues encountered there. Thank you! :pray:
@@ -62,13 +66,13 @@ cuda_compiler_version:         # [linux64 and os.environ.get("CF_CUDA_ENABLED", 
   - 12.0                       # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 c_compiler_version:            # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 12                         # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 11                         # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 cxx_compiler_version:          # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 12                         # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 11                         # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 fortran_compiler_version:      # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 12                         # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 11                         # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 cudnn:                         # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 8                          # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
