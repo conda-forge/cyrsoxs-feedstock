@@ -13,7 +13,7 @@ build:
   skip: True  # [py<37]
   skip: True  # [not linux64]
   skip: True  # [cuda_compiler_version == "None"]
-  number: 5
+  number: 6
 
 requirements:
   build:
@@ -56,3 +56,4 @@ extra:
   recipe-maintainers:
     - pbeaucage
     - pdudenas
+    - delongchamp
