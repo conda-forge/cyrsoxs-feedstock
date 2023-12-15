@@ -29,6 +29,7 @@ requirements:
     - hdf5
     - libgomp
     - libconfig
+    - cuda-cudart-dev   # [(cuda_compiler_version or "").startswith("12")]
     - libcufft-dev      # [(cuda_compiler_version or "").startswith("12")]
     - libcublas-dev      # [(cuda_compiler_version or "").startswith("12")]
     - libnpp-dev      # [(cuda_compiler_version or "").startswith("12")]
