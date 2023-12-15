@@ -15,7 +15,7 @@ build:
   skip: True  # [py<37]
   skip: True  # [not linux64 and not win64]
   skip: True  # [cuda_compiler_version == "None"]
-  number: 1
+  number: 5
 
 requirements:
   build:
@@ -32,6 +32,11 @@ requirements:
     - pybind11-abi
     - hdf5
     - libconfig
+    - cuda-version {{ cuda_compiler_version }}  # [(cuda_compiler_version or "None") != "None"]
+    - cuda-cudart-dev                           # [(cuda_compiler_version or "").startswith("12")]
+    - libcufft-dev                              # [(cuda_compiler_version or "").startswith("12")]
+    - libcublas-dev                             # [(cuda_compiler_version or "").startswith("12")]
+    - libnpp-dev                                # [(cuda_compiler_version or "").startswith("12")]
   run:
     - libconfig
     - python
