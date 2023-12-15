@@ -1,0 +1,38 @@
+From 2b2ed4460c7680c611e1a1dc43bcb7c9df26e47e Mon Sep 17 00:00:00 2001
+From: Peter Beaucage <github@peterbeaucage.com>
+Date: Wed, 1 Mar 2023 15:10:19 -0500
+Subject: [PATCH] Add windows cutout for libconfig
+
+---
+ CMakeLists.txt | 15 +++++++++++----
+ 1 file changed, 11 insertions(+), 4 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 2c3c0e5..2f5e67d 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -106,10 +106,17 @@ if (PYBIND)
+     include_directories(${Python_INCLUDE_DIRS})
+     find_package(pybind11 CONFIG REQUIRED)
+ else ()
+-    find_package(Config++)
+-    if (NOT ${CONFIG++_FOUND})
+-        message(FATAL_ERROR "Libconfig++ could not be located.")
+-    endif ()
++    if (WIN32)
++	find_package(libconfig CONFIG REQUIRED)
++ 	find_path(CONFIG++_LIBRARY libconfig.h++)
++	find_library(CONFIG++_LIBRARY NAMES libconfig)	
++    endif (WIN32)
++    if (UNIX)
++        find_package(Config++)
++        if (NOT ${CONFIG++_FOUND})
++            message(FATAL_ERROR "Libconfig++ could not be located.")
++        endif ()
++    endif (UNIX)
+ endif ()
+ 
+ 
+-- 
+2.37.1 (Apple Git-137.1)
+
