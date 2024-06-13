@@ -8,10 +8,12 @@ package:
 source:
   url: https://github.com/usnistgov/cyrsoxs/archive/refs/tags/V{{ version }}.tar.gz
   sha256: {{ sha }}
+  patches:
+      - 0001-Add-windows-cutout-for-libconfig.patch
 
 build:
   skip: True  # [py<37]
-  skip: True  # [not linux64]
+  skip: True  # [not linux64 and not win64]
   skip: True  # [cuda_compiler_version == "None"]
   number: 6
 
@@ -19,15 +21,16 @@ requirements:
   build:
     - {{ compiler('cxx') }}
     - {{ compiler('cuda') }}
+    - ninja  # [win]
     - cmake
     - make
-    - libgomp
+    - libgomp  # [linux]
+    - libconfig
   host:
     - python
     - pybind11
     - pybind11-abi
     - hdf5
-    - libgomp
     - libconfig
     - cuda-version {{ cuda_compiler_version }}  # [(cuda_compiler_version or "None") != "None"]
     - cuda-cudart-dev                           # [(cuda_compiler_version or "").startswith("12")]
@@ -35,7 +38,6 @@ requirements:
     - libcublas-dev                             # [(cuda_compiler_version or "").startswith("12")]
     - libnpp-dev                                # [(cuda_compiler_version or "").startswith("12")]
   run:
-    - libgomp
     - libconfig
     - python
 test:
