@@ -45,7 +45,7 @@ test:
     - CyRSoXS
 about:
   home: https://github.com/usnistgov/cyrsoxs
-  summary: 'Cy-RSoXS Forward Simulator for Resonant Soft X-Ray Scattering'
+  summary: Cy-RSoXS Forward Simulator for Resonant Soft X-Ray Scattering
   description: |
   license: MIT
   license: NIST-PD
