@@ -17,10 +17,10 @@ build:
 
 requirements:
   build:
-    - {{ stdlib('c') }}
-    - {{ compiler('c') }}
-    - {{ compiler('cxx') }}
-    - {{ compiler('cuda') }}
+    - {{ stdlib("c") }}
+    - {{ compiler("c") }}
+    - {{ compiler("cxx") }}
+    - {{ compiler("cuda") }}
     - cmake
     - make
     - libgomp
