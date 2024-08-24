@@ -10,7 +10,6 @@ source:
   sha256: {{ sha }}
 
 build:
-  skip: True  # [py<37]
   skip: True  # [not linux64]
   skip: True  # [cuda_compiler_version == "None"]
   number: 6
