@@ -10,15 +10,16 @@ source:
   sha256: {{ sha }}
 
 build:
-  skip: True  # [py<37]
   skip: True  # [not linux64]
   skip: True  # [cuda_compiler_version == "None"]
-  number: 6
+  number: 7
 
 requirements:
   build:
-    - {{ compiler('cxx') }}
-    - {{ compiler('cuda') }}
+    - {{ stdlib("c") }}
+    - {{ compiler("c") }}
+    - {{ compiler("cxx") }}
+    - {{ compiler("cuda") }}
     - cmake
     - make
     - libgomp
@@ -43,8 +44,7 @@ test:
     - CyRSoXS
 about:
   home: https://github.com/usnistgov/cyrsoxs
-  summary: 'Cy-RSoXS Forward Simulator for Resonant Soft X-Ray Scattering'
-  description: |
+  summary: Cy-RSoXS Forward Simulator for Resonant Soft X-Ray Scattering
   license: MIT
   license: NIST-PD
   license_family: MIT
