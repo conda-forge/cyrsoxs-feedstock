@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/usnistgov/cyrsoxs/archive/refs/tags/V{{ version }}.tar.gz
+  url: https://github.com/usnistgov/cyrsoxs/archive/refs/tags/v{{ version }}.tar.gz
   sha256: {{ sha }}
 
 build:
