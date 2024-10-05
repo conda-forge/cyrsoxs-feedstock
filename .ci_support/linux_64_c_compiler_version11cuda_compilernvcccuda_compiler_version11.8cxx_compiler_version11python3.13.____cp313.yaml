@@ -23,7 +23,7 @@ cxx_compiler_version:
 docker_image:
 - quay.io/condaforge/linux-anvil-cuda:11.8
 hdf5:
-- 1.14.3
+- 1.14.4
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -32,6 +32,8 @@ pybind11_abi:
 - '4'
 python:
 - 3.13.* *_cp313
+sox:
+- 14.4.2
 target_platform:
 - linux-64
 zip_keys:
