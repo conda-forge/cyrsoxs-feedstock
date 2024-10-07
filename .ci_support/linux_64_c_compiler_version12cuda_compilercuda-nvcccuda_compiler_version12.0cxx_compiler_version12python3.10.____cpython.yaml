@@ -32,6 +32,8 @@ pybind11_abi:
 - '4'
 python:
 - 3.10.* *_cpython
+sox:
+- 14.4.2
 target_platform:
 - linux-64
 zip_keys:
