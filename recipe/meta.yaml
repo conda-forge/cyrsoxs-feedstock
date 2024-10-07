@@ -1,18 +1,18 @@
 {% set name = "cyrsoxs" %}
-{% set version = "1.1.6.0" %}
-{% set sha = "bd9d75f924a4d83c48db6584ac1ccbf003ca399b03bca29fb90bfffe904fd0d4" %}
+{% set version = "1.1.7.0" %}
+{% set sha = "3acaede7f027e8318a36d1b9bda0bfea74ac7d24e014ec115fb7ef547750a6a7" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/usnistgov/cyrsoxs/archive/refs/tags/V{{ version }}.tar.gz
+  url: https://github.com/usnistgov/cyrsoxs/archive/refs/tags/v{{ version }}.tar.gz
   sha256: {{ sha }}
 
 build:
   skip: True  # [not linux64]
   skip: True  # [cuda_compiler_version == "None"]
-  number: 9
+  number: 0
 
 requirements:
   build:
