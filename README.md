@@ -87,8 +87,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-<<<<<<< HEAD
-=======
               <td>linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12python3.13.____cp313</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
@@ -96,7 +94,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
->>>>>>> conda-forge/main
               <td>linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17615&branchName=main">
