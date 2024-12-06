@@ -12,7 +12,7 @@ source:
 build:
   skip: True  # [not linux64]
   skip: True  # [cuda_compiler_version == "None"]
-  number: 0
+  number: 1
 
 requirements:
   build:
