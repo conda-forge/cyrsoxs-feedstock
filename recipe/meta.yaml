@@ -1,6 +1,6 @@
 {% set name = "cyrsoxs" %}
-{% set version = "1.1.7.0" %}
-{% set sha = "3acaede7f027e8318a36d1b9bda0bfea74ac7d24e014ec115fb7ef547750a6a7" %}
+{% set version = "1.1.8.0" %}
+{% set sha = "c1b4b001ff56937881b2cef452f40e08c5a85900403ff86d527dcbbf5a994305" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -10,9 +10,8 @@ source:
   sha256: {{ sha }}
 
 build:
-  skip: True  # [not linux64]
-  skip: True  # [cuda_compiler_version == "None"]
-  number: 1
+  skip: True  # [not linux64 or cuda_compiler_version == "None"]
+  number: 0
 
 requirements:
   build:
@@ -45,8 +44,7 @@ test:
 about:
   home: https://github.com/usnistgov/cyrsoxs
   summary: Cy-RSoXS Forward Simulator for Resonant Soft X-Ray Scattering
-  license: MIT
-  license: NIST-PD
+  license: "MIT AND NIST-PD"
   license_family: MIT
   license_file: LICENSE
   doc_url: https://nrss.readthedocs.io/
