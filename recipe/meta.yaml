@@ -45,8 +45,9 @@ test:
 about:
   home: https://github.com/usnistgov/cyrsoxs
   summary: Cy-RSoXS Forward Simulator for Resonant Soft X-Ray Scattering
-  license: MIT
-  license: NIST-PD
+  license:
+    - MIT
+    - NIST-PD
   license_family: MIT
   license_file: LICENSE
   doc_url: https://nrss.readthedocs.io/
