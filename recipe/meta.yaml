@@ -10,8 +10,7 @@ source:
   sha256: {{ sha }}
 
 build:
-  skip: True  # [not linux64]
-  skip: True  # [cuda_compiler_version == "None"]
+  skip: True  # [not linux64 or cuda_compiler_version == "None"]
   number: 0
 
 requirements:
@@ -45,9 +44,8 @@ test:
 about:
   home: https://github.com/usnistgov/cyrsoxs
   summary: Cy-RSoXS Forward Simulator for Resonant Soft X-Ray Scattering
-  license:
-    - MIT
-    - NIST-PD
+  license: MIT
+  license: NIST-PD
   license_family: MIT
   license_file: LICENSE
   doc_url: https://nrss.readthedocs.io/
