@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cyrsoxs-feedsto
 
 Home: https://github.com/usnistgov/cyrsoxs
 
-Package license: NIST-PD
+Package license: MIT AND NIST-PD
 
 Summary: Cy-RSoXS Forward Simulator for Resonant Soft X-Ray Scattering
 
